@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact StakeCloud – reach out to our sales team, request a demo, or get technical support. We're here to help." />
+  <title>Contact Us – StakeCloud</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">⚡</div>
+        <div class="logo-text">Stake<span>Cloud</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="countries.html">Countries</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-outline" style="padding: 10px 24px; font-size: 0.88rem;">Get Demo</a>
+        <a href="contact.html" class="btn btn-primary" style="padding: 10px 24px; font-size: 0.88rem;">Start Free</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="navMobile">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="countries.html">Countries</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-primary" style="margin-top: 12px; justify-content: center;">Start Free Trial</a>
+    </nav>
+  </nav>
+
+  <!-- Page Hero -->
+  <header class="page-hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <span class="section-tag">✦ Get In Touch</span>
+      <h1>Let's <span class="gradient-text">Connect</span></h1>
+      <p>Whether you're exploring our platform, planning a migration, or need enterprise support — our team is ready to help.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <div class="contact-info reveal">
+            <h3>Reach out to us</h3>
+            <p>Our team is available Monday–Friday, 9am–6pm across multiple time zones. Enterprise clients receive 24/7 priority support.</p>
+
+            <div class="contact-details">
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon">📍</div>
+                <div class="contact-detail-text">
+                  <strong>Head Office</strong>
+                  <span>12 Rustaveli Avenue, Suite 400<br />Tbilisi, Georgia, 0108</span>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon">📧</div>
+                <div class="contact-detail-text">
+                  <strong>Email</strong>
+                  <span>hello@stakecloud.io</span>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon">📞</div>
+                <div class="contact-detail-text">
+                  <strong>Phone</strong>
+                  <span>+995 32 200 1100</span>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon">💬</div>
+                <div class="contact-detail-text">
+                  <strong>Support Portal</strong>
+                  <span>support.stakecloud.io</span>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon">🕐</div>
+                <div class="contact-detail-text">
+                  <strong>Business Hours</strong>
+                  <span>Mon – Fri: 9:00 AM – 6:00 PM (GET)<br />Enterprise: 24/7 support available</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Regional Offices -->
+            <div style="margin-top: 40px; padding: 24px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);">
+              <h4 style="margin-bottom: 16px; font-size: 1rem;">Regional Offices</h4>
+              <div style="display: flex; flex-direction: column; gap: 10px;">
+                <div style="font-size: 0.88rem; color: var(--text-secondary);">🇷🇺 <strong style="color: var(--text-primary);">Moscow</strong> — Bolshoy Gnezdnikovsky 10, Moscow</div>
+                <div style="font-size: 0.88rem; color: var(--text-secondary);">🇰🇿 <strong style="color: var(--text-primary);">Almaty</strong> — Dostyk Avenue 14, Almaty</div>
+                <div style="font-size: 0.88rem; color: var(--text-secondary);">🇺🇦 <strong style="color: var(--text-primary);">Kyiv</strong> — Khreshchatyk Street 22, Kyiv</div>
+                <div style="font-size: 0.88rem; color: var(--text-secondary);">🇺🇿 <strong style="color: var(--text-primary);">Tashkent</strong> — Amir Temur Street 107, Tashkent</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrap reveal">
+            <h3 style="margin-bottom: 8px;">Send us a message</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 28px;">Fill in the form and one of our team members will respond within 24 hours.</p>
+
+            <form id="contactForm" novalidate>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="John" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Work Email</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" placeholder="Acme Corp" />
+              </div>
+
+              <div class="form-group">
+                <label for="interest">I'm interested in</label>
+                <select id="interest" name="interest">
+                  <option value="">Select a service...</option>
+                  <option>Cloud Hosting & DevOps</option>
+                  <option>Data & Analytics Platform</option>
+                  <option>Digital Marketing Technology</option>
+                  <option>Cybersecurity Suite</option>
+                  <option>AI & Process Automation</option>
+                  <option>Strategic Consulting</option>
+                  <option>General Inquiry</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your project, requirements, or any questions you have..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 16px;">
+                Send Message →
+              </button>
+
+              <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 12px; text-align: center;">
+                By submitting, you agree to our <a href="privacy-policy.html" style="color: var(--accent-cyan);">Privacy Policy</a>.
+              </p>
+
+            </form>
+          </div>
+
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-section reveal">
+          <h3 style="margin-bottom: 24px;">Find Our Head Office</h3>
+          <div class="map-container">
+            <!-- Google Maps embed – Tbilisi, Georgia -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.066566374634!2d44.7975893!3d41.6938048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7b387b359%3A0x5e94c0a91e372c88!2sRustaveli%20Ave%2C%20Tbilisi%2C%20Georgia!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="StakeCloud Head Office Location"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="font-size: 1.3rem;">
+            <div class="logo-icon">⚡</div>
+            <div class="logo-text">Stake<span>Cloud</span></div>
+          </a>
+          <p>Enterprise cloud intelligence for the world's fastest-growing digital markets.</p>
+          <div class="footer-social">
+            <a href="#" class="social-icon">in</a>
+            <a href="#" class="social-icon">𝕏</a>
+            <a href="#" class="social-icon">⌥</a>
+            <a href="#" class="social-icon">▶</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="countries.html">Markets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="services.html">Cloud Hosting</a></li>
+            <li><a href="services.html">Data Analytics</a></li>
+            <li><a href="services.html">Marketing Tech</a></li>
+            <li><a href="services.html">Cybersecurity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 StakeCloud Inc. All rights reserved.</p>
+        <nav class="footer-legal">
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="terms-conditions.html">Terms</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
